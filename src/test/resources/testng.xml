@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" >
+
+    <listeners>
+        <listener class-name="util.TestListnerTest"></listener>
+    </listeners>
+
+
+    <test name="TestProject">
+        <classes>
+            <class name="testClass.StackOverFlowTest" />
+            <class name="testClass.stackOverFlowPageDuplciate"/>
+
+           <!-- <class name="testClass.BrowserWindowsTest" />-->
+           <!-- <class name="testClass.ActionTest" />-->
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->

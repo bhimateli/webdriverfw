@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="util.TestListnerTest"></listener>
+    </listeners>
+    <test name="TestNG">
+        <parameter name="browser" value="Chrome"></parameter>
+        <!-- Define parameters -->
+        <parameter name="username" value="testuser" />
+        <parameter name="password" value="testpass" />
+        <classes>
+                       <class name="Practice.JavaPrograms.TestNGExample" />
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
